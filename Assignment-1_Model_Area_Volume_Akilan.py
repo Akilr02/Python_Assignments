@@ -1,6 +1,6 @@
 #Code author: Akilan
 def find_area_volume_stl(filename):
-    """Provide stl file path for which area and vol;ume should be returned"""
+    """Provide stl file path for which area and volume should be returned"""
     File=open(filename, "r")
     import math
     co_or=[]
