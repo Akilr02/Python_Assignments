@@ -1,4 +1,6 @@
-def fn(filename):
+#Code author: Akilan
+def find_area_volume_stl(filename):
+    """Provide stl file path for which area and vol;ume should be returned"""
     File=open(filename, "r")
     import math
     co_or=[]
@@ -30,6 +32,6 @@ def fn(filename):
     #return str(Total_Area)+"mm2", str(vol)+"mm2"
 
 
-area, volume = fn("Unbend_Model 4")
+area, volume = find_area_volume_stl("Unbend_Model 4")
 print(f"{area} mm2, {volume} mm3")
 #print(area, volume)
